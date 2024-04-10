@@ -1,6 +1,6 @@
    #grid {
   display: grid;
-  grid-template-rows: 124px 124px 124px 124px 124px 0px 0px 0px 0px ; /* Set the desired rows */
+  grid-template-rows: 124px 124px 124px 124px 124px; /* Set the desired rows */
   grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
   grid-gap: 10px; 
   grid-template-areas:
