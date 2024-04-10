@@ -1,8 +1,11 @@
    #grid {
   display: grid;
-  grid-template-rows: 124px 124px 124px 124px 124px; /* Set the desired rows */
-  grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
-  grid-gap: 10px; 
+  /* grid-template-rows: '124px 124px 124px 124px 124px';
+  grid-template-columns: 242.5px 242.5px 242.5px 242.5px; */
+  /* grid-gap: 10px;  */
+	   grid-template-rows: repeat(5, 1fr); /* Use fractional units (fr) */
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px; 
   grid-template-areas:
     "box1 box1 box1 box1"
     "box2 box3 box4 box4"
