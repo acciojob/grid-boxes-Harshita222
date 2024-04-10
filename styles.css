@@ -7,11 +7,11 @@
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 10px; 
   grid-template-areas:
-    "box1 box1 box1 box1"
-    "box2 box3 box4 box4"
-    "box2 box5 box6 box6"
+    "box1 box1 box1"
+    "box2 box3 box4"
+    "box2 box5 box6"
     "box2 box7 box8 box9"
-    "box2 box10 box10 box10";
+    "box2 box10 box10";
 }
 
 /* Define styles for each box */
